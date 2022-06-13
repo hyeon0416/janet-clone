@@ -1,5 +1,218 @@
 #contentTop{
     width: 100%;
     height: 480px;
-    background-color: #ede4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ede4fc;
+}
+/* banner */
+#content-top-banner{
+    width: 420px;
+    height: 370px;
+    overflow: hidden;
+    margin-right: 0.5rem;
+}
+#content-top-banner-ad{
+    width: 400%;
+    height: 370px;
+    display: flex;
+}
+#content-top-banner-ad input{
+    display: none;
+}
+.content-top-banner-ad-top{
+    width: 25%;
+    transition: 2s;
+}
+.content-top-banner-ad-top img{
+    width: 420px;
+    height: 370px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 420px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+/*#9c57f5*/
+.manual-button{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.manual-button:not(:last-child){
+    margin-right: 1rem;
+}
+.manual-button:hover{
+    background: #fff;
+}
+#content-top-banner-ad-radio1:checked ~ .first{
+    margin-left: 0;
+}
+#content-top-banner-ad-radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#content-top-banner-ad-radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#content-top-banner-ad-radio4:checked ~ .first{
+    margin-left: -75%;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 420px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.navigation-auto div{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 1rem;
+}
+#content-top-banner-ad-radio1:checked ~ .navigation-auto #auto-button1{
+    background: #fff;
+}
+#content-top-banner-ad-radio2:checked ~ .navigation-auto #auto-button2{
+    background: #fff;
+}
+#content-top-banner-ad-radio3:checked ~ .navigation-auto #auto-button3{
+    background: #fff;
+}
+#content-top-banner-ad-radio4:checked ~ .navigation-auto #auto-button4{
+    background: #fff;
+}
+/* info */
+#content-top-info{
+    width: 550px;
+    height: 370px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+#content-top-info-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 310px;
+}
+#content-top-info-main-title{
+    align-self: flex-start;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+#content-top-info-main-title h3{
+    font-size: 1.5rem;
+}
+#content-top-info-main-subTitles{
+    display: flex;
+    justify-content: space-around;
+}
+.content-top-info-main-subTitleFlexBox{
+    display: flex;
+}
+.content-top-info-main-subTitleFlexBox div{
+    margin-left: 1rem;
+    width: 95px;
+}
+.content-top-info-main-subTitleFlexBox div h4{
+    font-size: larger;
+    margin-bottom: 0.25rem;
+}
+.subTitles-bottom{
+    margin-top: 2rem;
+}
+/* chart */
+#content-top-chart{
+    width: 260px;
+    height: 370px;
+    background: #fff;
+}
+#content-top-chart-box{
+    width: 100%;
+    height: 100%;
+}
+#content-top-chart-title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content-top-chart-title h3{
+    font-family: 'noto sans kr';
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1;
+}
+#content-top-chart-rank{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#content-top-chart-rank li{
+    list-style: none;
+    margin-left: 1rem;
+}
+#content-top-chart-rank li:not(:last-child){
+    margin-bottom: 0.7rem;
+}
+#content-top-chart-rank li a{
+    text-decoration: none;
+}
+#content-top-chart-rank li a span{
+    font-size: 0.9rem;
+    color: black;
+}
+#content-top-chart-rank li a span:hover{
+    color: #9c57f5;
+}
+#content-top-chart-rank li:before{
+    font-weight: bold;
+    width: 20px;
+    color: #bababa;
+    display: inline-block;
+    text-align: center;
+}
+#rank1:before{
+    content: '1';
+}
+#rank2:before{
+    content: '2';
+}
+#rank3:before{
+    content: '3';
+}
+#rank4:before{
+    content: '4';
+}
+#rank5:before{
+    content: '5';
+}
+#rank6:before{
+    content: '6';
+}
+#rank7:before{
+    content: '7';
+}
+#rank8:before{
+    content: '8';
+}
+#rank9:before{
+    content: '9';
+}
+#rank10:before{
+    content: '10';
 }
