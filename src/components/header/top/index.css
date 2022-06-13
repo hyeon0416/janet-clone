@@ -1,0 +1,90 @@
+#top-header{
+    width: 1250px;
+    height: 65px;
+    min-width: 1250px;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#top-header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 565px;
+    min-width: 565px;
+}
+#top-header-left form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 396px;
+    min-width: 396px;
+    height: 36px;
+    min-height: 36px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    background-color: #EFEFEF;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(135deg, rgb(156, 87, 245), rgb(155, 171, 255));
+    background-origin: padding-box, border-box;
+    background-clip: padding-box, border-box;
+    font-family: 'noto sans kr';
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+#top-header-left form input{
+    float: left;
+    width: 230px;
+    height: 35px;
+    padding-left: 0;
+    background: #fff;
+    font-size: 14px;
+    outline: none;
+}
+#top-header-left form input:focus::placeholder{
+    color: #9c57f5;
+}
+#top-header-left form input:focus-within{
+    transition: all 0.5s ease-in;
+}
+#top-header-left form button{
+    width: 30px;
+    height: 30px;
+}
+#top-header-left form button img{
+    width: 30px;
+    height: 30px;
+}
+#top-header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    color: #919191;
+    font-weight: 500;
+    font-family: 'noto sans kr';
+    font-size: 14px;
+    text-decoration: none;
+}
+.icon:hover{
+    color:#9c57f5;
+}
+.register:hover > .register{
+    filter: brightness(0) saturate(100%) invert(38%) sepia(63%) saturate(2699%) hue-rotate(243deg) brightness(98%) contrast(96%);
+}
+.login:hover > .login{
+    filter: brightness(0) saturate(100%) invert(38%) sepia(63%) saturate(2699%) hue-rotate(243deg) brightness(98%) contrast(96%);
+}
+.company:hover > .company{
+    filter: brightness(0) saturate(100%) invert(38%) sepia(63%) saturate(2699%) hue-rotate(243deg) brightness(98%) contrast(96%);
+}
+.icon img{
+    height: 19px;
+    width: 19px;
+}

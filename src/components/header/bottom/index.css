@@ -1,0 +1,56 @@
+#bottom-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bottom-header-left{
+    display: flex;
+    align-items: center;
+}
+#bottom-header-right{
+    display: flex;
+}
+#bottom-header-right a{
+    width: 100px;
+}
+#bottom-header-right a:nth-child(1){
+    text-indent: -9999px;
+    display: block;
+    margin-right: 16px;
+    background: url('../../../asset/image/aca.png') no-repeat center 12px;
+}
+#bottom-header-right a:nth-child(2){
+    text-indent: -9999px;
+    height: 55px;
+    display: block;
+    background: url('../../../asset/image/commu.png') no-repeat center 14px;
+}
+#bottom-header-right a:nth-child(3){
+    text-indent: -9999px;
+    display: block;
+    background: url('../../../asset/image/ai.png') no-repeat center 24px;
+}
+#bottom-header-right a:nth-child(3):hover{
+    background: url('../../../asset/image/ai_ov.png') no-repeat center -1px;
+}
+.menu-text{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.text-hover:hover{
+    color:#9c57f5;
+}
+.info:hover{
+    color:#9c57f5;
+}
+.talk:hover{
+    color:#9c57f5;
+}
+
+#menu{
+    display: block;
+    width: 55px;
+    height: 55px;
+}

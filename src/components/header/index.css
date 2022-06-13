@@ -1,0 +1,17 @@
+#header{
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    width: 100%;
+    min-width: 1250px;
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bottom-header{
+    width: 1250px;
+    height: 65px;
+    min-width: 1250px;
+    min-height: 65px;
+}
