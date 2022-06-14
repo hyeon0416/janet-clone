@@ -4,6 +4,7 @@ import top1 from '../../../asset/image/mainBn_top_01.png'
 import top2 from '../../../asset/image/mainBn_top_02.png'
 import top3 from '../../../asset/image/mainBn_top_03.png'
 import top4 from '../../../asset/image/mainBn_top_04.png'
+import btn from '../../../asset/image/rightButton.png'
 
 function ContentTop(){
     return (
@@ -44,6 +45,14 @@ function ContentTop(){
                 <div id="content-top-info-main">
                     <div id="content-top-info-main-title">
                         <h3>자격증정보</h3>
+                        <div>
+                            <div>
+                                <input className="contentTop-leftButton" type="image" src={btn} alt=""></input>
+                            </div>
+                            <div>
+                                <input type="image" src={btn} alt=""></input>
+                            </div>
+                        </div>
                     </div>
                     <div id="content-top-info-main-subTitles">
                         <div id="content-top-info-main-subTitles-top">
@@ -88,6 +97,14 @@ function ContentTop(){
                 <div id="content-top-chart-box">
                     <div id="content-top-chart-title">
                         <h3>기사 인기순위</h3>
+                        <div>
+                            <div>
+                                <input className="contentTop-leftButton" type="image" src={btn} alt=""></input>
+                            </div>
+                            <div>
+                                <input type="image" src={btn} alt=""></input>
+                            </div>
+                        </div>
                     </div>
                     <ul id="content-top-chart-rank">
                         <li id="rank1">

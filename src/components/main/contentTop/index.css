@@ -108,9 +108,25 @@
     height: 310px;
 }
 #content-top-info-main-title{
-    align-self: flex-start;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#content-top-info-main-title div{
+    display: flex;
+}
+#content-top-info-main-title div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #ededed;
+}
+#content-top-info-main-title div div input{
+    width: 6px;
+    height: 10px;
 }
 #content-top-info-main-title h3{
     font-size: 1.5rem;
@@ -147,8 +163,26 @@
     width: 100%;
     height: 20%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+}
+#content-top-chart-title div{
+    display: flex;
+}
+#content-top-chart-title div div{
+    width: 19px;
+    height: 19px;
+    border: 1px solid #efeffe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content-top-chart-title div div input{
+    width: 6px;
+    height: 10px;
+}
+.contentTop-leftButton{
+    transform: rotate(180deg);
 }
 #content-top-chart-title h3{
     font-family: 'noto sans kr';

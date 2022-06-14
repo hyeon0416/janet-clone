@@ -1,0 +1,21 @@
+#content-mid-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#content-mid-banner-leftButton,#content-mid-banner-rightButton{
+    width: 27px;
+    height: 44px;
+}
+#content-mid-banner-leftButton{
+    transform:rotate(180deg);
+    margin-right: 1rem;
+}
+#content-mid-banner-rightButton{
+    margin-left: 1rem;
+}
+.content-mid-banner-ad:not(:last-child){
+    margin-right: 1.5rem;
+}
