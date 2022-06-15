@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/hyeon0416/janet-clone/static/css/main.712aaa1b.css",
+    "main.js": "/hyeon0416/janet-clone/static/js/main.f347847e.js",
+    "static/media/mainBn_top_01.png": "/hyeon0416/janet-clone/static/media/mainBn_top_01.3956b8e5a1370a82cb45.png",
+    "static/media/mainBn_top_03.png": "/hyeon0416/janet-clone/static/media/mainBn_top_03.a53017fec7ccf483f8b7.png",
+    "static/media/mainBn_top_02.png": "/hyeon0416/janet-clone/static/media/mainBn_top_02.8433c644ef29b0d1206b.png",
+    "static/media/mainBn_top_04.png": "/hyeon0416/janet-clone/static/media/mainBn_top_04.4c0ad9d5869eeca92fa7.png",
+    "static/media/ad1.png": "/hyeon0416/janet-clone/static/media/ad1.79236a5190633de9121e.png",
+    "index.html": "/hyeon0416/janet-clone/index.html",
+    "main.712aaa1b.css.map": "/hyeon0416/janet-clone/static/css/main.712aaa1b.css.map",
+    "main.f347847e.js.map": "/hyeon0416/janet-clone/static/js/main.f347847e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.712aaa1b.css",
+    "static/js/main.f347847e.js"
+  ]
+}
