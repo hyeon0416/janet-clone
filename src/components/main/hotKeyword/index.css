@@ -1,0 +1,114 @@
+#hot-keyword{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hot-keyword-title{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+#hot-keyword-title img{
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+#hot-keyword-title b span{
+    color: #8f45ef;
+}
+#hot-keyword-title b{
+    font-size: 28px;
+    font-weight: 700;
+}
+#listHot{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    list-style: none;
+}
+#listHot li {
+    margin: 0 16.666666px 16px 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+#listHot li:nth-child(1) .hot-image-box{
+    background: #e9b107
+}
+#listHot li:nth-child(2) .hot-image-box{
+    background: #4b3962;
+}
+#listHot li:nth-child(3) .hot-image-box{
+    background: #e16045;
+}
+#listHot li:nth-child(4) .hot-image-box{
+    background: #474756;
+}
+#listHot li:nth-child(5) .hot-image-box{
+    background: #305a7e;
+}
+#listHot li:nth-child(6) .hot-image-box{
+    background: #b13c2f;
+}
+#listHot li:nth-child(7) .hot-image-box{
+    background: #383f4e;
+}
+#listHot li:nth-child(8) .hot-image-box{
+    background: #cd9308;
+}
+.hot-image-box{
+    width: 300px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+}
+.hot-image-box img{
+    opacity: 0.2;
+}
+.hot-image-box-name{
+    font-size: 1.65em;
+    font-weight: bold;
+    color: #fff;
+    line-height: 60px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    padding: 0 30px;
+    width: 100%;
+    letter-spacing: -0.05em;
+}
+.hot-image-box-D_Day{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    width: 44px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    background: #9c57f5;
+    border-radius: 10px;
+}
+.hot-sub-text{
+    padding: 12px 0 20px;
+    margin-left: 2rem;
+}
+.hot-sub-text p{
+    font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+    font-size: 1.2em;
+    line-height: 2;
+    height: 28px;
+    color: #6e6e6e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+}
+.hot-sub-text-date{
+    font-size: 1em;
+    color: #f15959;
+}
